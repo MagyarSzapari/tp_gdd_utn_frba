@@ -45,7 +45,7 @@ Rediseño del modelo y de toda la lógica T-SQL: tipos fieles al origen (sin per
 cabecera‑detalle correcto en ventas y facturas, migración con stored procedures set-based en
 una única transacción (`TRY…CATCH` + `XACT_STATE()`), estrella con medidas aditivas, funciones
 inline, índices de soporte y tests de conciliación. Detalle y fundamentos (SWEBOK v4.0,
-ISO/IEC 25010) en [`docs/FASE-2-refactor-y-optimizacion.md`](docs/FASE-2-refactor-y-optimizacion.md).
+ISO/IEC 25010) en [`docs/v2-refactor-y-optimizacion.md`](docs/v2-refactor-y-optimizacion.md).
 
 ```powershell
 powershell -ExecutionPolicy Bypass -File .\build.ps1
