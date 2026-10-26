@@ -1,0 +1,81 @@
+# =============================================================================
+# .gitignore - TP Gestión de Datos (SQL Server 2019 / T-SQL)
+# =============================================================================
+
+# -----------------------------------------------------------------------------
+# 1. Archivos físicos del motor SQL Server (nunca versionar)
+# -----------------------------------------------------------------------------
+# Datos y logs de transacciones de una base adjunta
+*.mdf
+*.ndf
+*.ldf
+# Backups completos, diferenciales y de log
+*.bak
+*.dif
+*.trn
+*.tuf
+# Snapshots y data-tier applications exportadas
+*.ss
+*.bacpac
+*.dacpac
+
+# -----------------------------------------------------------------------------
+# 2. Dataset de la cátedra (1.4 GB): se distribuye aparte, no en el repo
+#    Ver database/README.md para saber cómo obtenerlo y cargarlo.
+# -----------------------------------------------------------------------------
+database/catedra/gd_esquema.Maestra.Table.sql
+database/catedra/*.rar
+# Salida de sqlcmd (-o resultado_output.txt) y otros logs de ejecución
+resultado_output*.txt
+*.rpt
+*.log
+
+# -----------------------------------------------------------------------------
+# 3. SQL Server Management Studio (SSMS) / Azure Data Studio
+# -----------------------------------------------------------------------------
+# Opciones de usuario de soluciones/proyectos SSMS
+*.ssmssqlproj.user
+*.ssmssln.user
+*.suo
+*.user
+# Planes de ejecución guardados a mano (se regeneran)
+*.sqlplan
+# Recuperación automática de SSMS y archivos temporales de consultas
+SQLQuery*.sql
+~*.sql
+*.sql~
+# Reportes generados (SSRS / exportaciones)
+Reports/
+*.rdl.data
+
+# -----------------------------------------------------------------------------
+# 4. Proyectos SSDT / Visual Studio
+# -----------------------------------------------------------------------------
+bin/
+obj/
+.vs/
+*.dbmdl
+*.jfm
+
+# -----------------------------------------------------------------------------
+# 5. IDEs y editores
+# -----------------------------------------------------------------------------
+.idea/
+.vscode/
+*.swp
+
+# -----------------------------------------------------------------------------
+# 6. Sistema operativo
+# -----------------------------------------------------------------------------
+Thumbs.db
+desktop.ini
+.DS_Store
+
+# -----------------------------------------------------------------------------
+# 7. Archivos comprimidos de entrega y credenciales
+# -----------------------------------------------------------------------------
+*.zip
+*.zip123
+*.7z
+.env
+*.publishsettings

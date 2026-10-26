@@ -1,0 +1,83 @@
+df40769 | 2024-12-04 02:20:41 -0300 | Federico Hygonenq | cambio ultra menor
+
+M	script_creacion_inicial.sql
+f663e07 | 2024-12-04 02:18:55 -0300 | Federico Hygonenq | me pode creer que me salio me podee creer q me salio vite hay q insitir siempre hasta que salen las cosa
+
+M	script_creacion_inicial_bi.sql
+bf4a18c | 2024-12-04 00:50:20 -0300 | Federico Hygonenq | Arreglo errores migrar factura y localidad cliente, falta la view de facturacion_x_concepto porque concepto no tiene valores
+
+M	script_creacion_inicial_bi.sql
+01e804c | 2024-12-03 12:36:19 -0300 | MagyarSzapari | Modificación en MIGRAR_FACTURACION
+
+M	script_creacion_inicial_bi.sql
+df6fe04 | 2024-12-02 21:20:28 -0300 | Federico Hygonenq | Update script_creacion_inicial_bi.sql
+
+M	script_creacion_inicial_bi.sql
+d938dc6 | 2024-12-02 20:18:04 -0300 | FedeeHygonenq | update
+
+M	script_creacion_inicial_bi.sql
+79f251e | 2024-12-02 00:11:44 -0300 | Federico Hygonenq | Delete .idea directory
+
+D	.idea/misc.xml
+D	.idea/vcs.xml
+D	.idea/workspace.xml
+7e30cc0 | 2024-12-02 00:03:02 -0300 | FedeeHygonenq | otros cambios
+
+A	.idea/vcs.xml
+M	script_creacion_inicial_bi.sql
+4f3c671 | 2024-12-01 23:38:13 -0300 | FedeeHygonenq | cambios
+
+A	.idea/misc.xml
+A	.idea/workspace.xml
+M	script_creacion_inicial.sql
+M	script_creacion_inicial_bi.sql
+fdc2349 | 2024-11-25 11:33:45 -0300 | FedeeHygonenq | entrega
+
+M	script_creacion_inicial.sql
+M	script_creacion_inicial_bi.sql
+0c72ce7 | 2024-11-25 04:24:55 -0300 | Federico Hygonenq | Delete .idea directory
+
+D	.idea/.gitignore
+D	.idea/gdd.iml
+D	.idea/misc.xml
+D	.idea/modules.xml
+D	.idea/sqldialects.xml
+D	.idea/vcs.xml
+711c7c0 | 2024-11-25 04:24:34 -0300 | FedeeHygonenq | Merge branch 'main' of https://github.com/FedeeHygonenq/gdd
+0ca3502 | 2024-11-25 04:23:01 -0300 | FedeeHygonenq | avances
+
+A	.idea/.gitignore
+A	.idea/gdd.iml
+A	.idea/misc.xml
+A	.idea/modules.xml
+A	.idea/sqldialects.xml
+A	.idea/vcs.xml
+M	script_creacion_inicial.sql
+A	script_creacion_inicial_bi.sql
+4709c56 | 2024-11-23 03:17:36 -0300 | MagyarSzapari | Avances (?)
+
+M	script_creacion_inicial.sql
+aaab39c | 2024-11-21 19:42:28 -0300 | MagyarSzapari | Correcciones en la sintaxis del script.
+
+A	.idea/.gitignore
+A	.idea/gdd.iml
+A	.idea/misc.xml
+A	.idea/modules.xml
+A	.idea/vcs.xml
+M	script_creacion_inicial.sql
+d8b0080 | 2024-11-04 17:55:46 -0300 | FedeeHygonenq | Correcciones
+
+M	script_creacion_inicial.sql
+f797e2a | 2024-10-30 11:17:30 -0300 | FedeeHygonenq | "todo"
+
+M	script_creacion_inicial.sql
+fa4958d | 2024-10-29 21:25:33 -0300 | FedeeHygonenq | mas avances
+
+M	script_creacion_inicial.sql
+48970af | 2024-10-29 01:31:02 -0300 | FedeeHygonenq | algunos avances
+
+M	script_creacion_inicial.sql
+abdf9c6 | 2024-10-24 19:58:02 -0300 | FHygonenq | Add files via upload
+
+A	Enunciado.pdf
+A	script_creacion_inicial.sql

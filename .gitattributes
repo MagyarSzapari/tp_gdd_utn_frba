@@ -1,0 +1,13 @@
+# Normalizar finales de línea de texto; SQL y batch quedan en CRLF (SSMS / cmd)
+* text=auto
+*.sql text eol=crlf
+*.bat text eol=crlf
+*.md  text eol=lf
+
+# Script de la cátedra en UTF-16 LE: se versiona tal cual, sin conversión
+database/catedra/gd_esquema.Schema.sql -text
+
+# Binarios: sin diff ni conversión
+*.pdf binary
+*.jpg binary
+*.png binary
